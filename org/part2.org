@@ -253,7 +253,7 @@ https://www.evernote.com/l/ABc5cVh6zMND1KHY42FYTyRWzdfPcP4YYdEB/image.png
 
 除了返回值，计算会需要产生一些额外的数据，比如 log
 
-此时就需要一个 Writter，其返回值会是一个这样 =(result, log)= 的 tuple
+此时就需要一个 Writer，其返回值会是一个这样 =(result, log)= 的 tuple
 
 限制是 log 的类型必须是个 {{{ruby(含幺半群,monoid)}}}
 
