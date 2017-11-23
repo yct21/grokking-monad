@@ -296,7 +296,7 @@ https://www.evernote.com/l/ABeB64fSK2BO27_IffFrMrIYjglJrp5rb5sB/image.png
 https://www.evernote.com/l/ABeLJJ_cN0JJa5PqDPVlKk4Tt0oAvBKnxf4B/image.png
 
 ** State
-跟名字就看得出来 State monad 是为了处理状态。虽然函数式编程不应该有状态，不然会引用透明性。但是，state monad并不是在计算过程中修改状态，而是通过描述这种变化，然后需要时在运行返回最终结果。这一点跟 Reader 和 Writer 这两个看起来是副作用的 IO 是一样的。
+跟名字就看得出来 State monad 是为了处理状态。虽然函数式编程不应该有状态，不然会失去引用透明性。但是，state monad并不是在计算过程中修改状态，而是通过描述这种变化，然后需要时在运行返回最终结果。这一点跟 Reader 和 Writer 这两个看起来是副作用的 IO 是一样的。
 
 先看下 State 类型的定义
 #+BEGIN_SRC haskell
